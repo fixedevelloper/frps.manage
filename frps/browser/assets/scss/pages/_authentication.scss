@@ -3,16 +3,22 @@
 //
 
 body {
-     &.authentication-bg {
-       background: linear-gradient(90deg, #58777b 0%, #214a4f 100%);
+  &.authentication-bg {
+    // Uncomment this if you want a gradient instead:
+    // background: linear-gradient(90deg, #58777b 0%, #214a4f 100%);
 
-          .account-pages {
-               align-items: center;
-               display: flex;
-               min-height: 100vh;
-          }
-     }
+    background-image: url('../../images/bg-image.jpeg');
+    background-size: cover;
+    background-position: center;
+
+    .account-pages {
+      display: flex;
+      align-items: center;
+      min-height: 100vh;
+    }
+  }
 }
+
 
 .auth-logo {
      .logo-dark {
